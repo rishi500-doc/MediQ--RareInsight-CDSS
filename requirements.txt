@@ -1,0 +1,13 @@
+chromadb
+sentence-transformers
+streamlit
+pandas
+numpy
+python-dotenv
+requests
+spacy
+scispacy
+medspacy
+negspacy
+transformers
+torch

@@ -1,0 +1,37 @@
+{
+  "Marfan syndrome": {
+    "category": "connective tissue disorder",
+    "hallmarks": [
+      "lens dislocation",
+      "ectopia lentis",
+      "aortic root aneurysm",
+      "arachnodactyly"
+    ]
+  },
+  "Loeys-Dietz syndrome": {
+    "category": "connective tissue disorder",
+    "hallmarks": [
+      "bifid uvula",
+      "hypertelorism",
+      "arterial tortuosity",
+      "aneurysm"
+    ]
+  },
+  "Ehlers-Danlos syndrome": {
+    "category": "connective tissue disorder",
+    "hallmarks": [
+      "joint hypermobility",
+      "skin hyperextensibility",
+      "tissue fragility"
+    ]
+  },
+  "Cystic Fibrosis": {
+    "category": "pulmonary-gastrointestinal",
+    "hallmarks": [
+      "salty skin",
+      "meconium ileus",
+      "pancreatic insufficiency",
+      "steatorrhea"
+    ]
+  }
+}

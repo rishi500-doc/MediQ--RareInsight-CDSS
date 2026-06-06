@@ -1,0 +1,26 @@
+{
+  "HP:0000098": {"name": "Tall stature", "synonyms": ["Increased height", "Gigantism"]},
+  "HP:0001083": {"name": "Ectopia lentis", "synonyms": ["Lens dislocation", "Dislocated lens"]},
+  "HP:0002616": {"name": "Aortic aneurysm", "synonyms": ["Dilation of the aorta"]},
+  "HP:0001382": {"name": "Joint hypermobility", "synonyms": ["Double jointedness", "Loose joints"]},
+  "HP:0000252": {"name": "Microcephaly", "synonyms": ["Small head size"]},
+  "HP:0000256": {"name": "Macrocephaly", "synonyms": ["Large head size"]},
+  "HP:0001250": {"name": "Seizure", "synonyms": ["Epilepsy", "Convulsions"]},
+  "HP:0001263": {"name": "Global developmental delay", "synonyms": ["Delayed milestones"]},
+  "HP:0000717": {"name": "Autism", "synonyms": ["Autistic features"]},
+  "HP:0002140": {"name": "Ischemic stroke", "synonyms": ["Cerebral infarction"]},
+  "HP:0000508": {"name": "Ptosis", "synonyms": ["Drooping eyelids"]},
+  "HP:0000407": {"name": "Sensorineural hearing impairment", "synonyms": ["Nerve deafness"]},
+  "HP:0000316": {"name": "Hypertelorism", "synonyms": ["Widely spaced eyes"]},
+  "HP:0001371": {"name": "Joint contracture", "synonyms": ["Stiff joints"]},
+  "HP:0000733": {"name": "Restless legs syndrome", "synonyms": []},
+  "HP:0001635": {"name": "Congestive heart failure", "synonyms": []},
+  "HP:0001249": {"name": "Intellectual disability", "synonyms": ["Mental retardation"]},
+  "HP:0001392": {"name": "Abnormality of the liver", "synonyms": ["Liver disease"]},
+  "HP:0001061": {"name": "Acrocyanosis", "synonyms": ["Blue hands and feet"]},
+  "HP:0000639": {"name": "Nystagmus", "synonyms": ["Involuntary eye movements"]},
+  "HP:0000974": {"name": "Skin hyperextensibility", "synonyms": ["Hyperextensible skin"]},
+  "HP:0001030": {"name": "Fragile skin", "synonyms": ["Tissue fragility", "Skin fragility"]},
+  "HP:0001373": {"name": "Joint dislocation", "synonyms": ["Frequent dislocations", "Recurrent joint dislocation"]}
+}
+

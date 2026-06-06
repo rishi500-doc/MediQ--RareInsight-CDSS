@@ -1,0 +1,3 @@
+@echo off
+echo Starting MediQ Rare Disease CDSS (Development Mode)...
+uv run python -m uvicorn backend.main:app --reload --reload-dir backend --port 8000
