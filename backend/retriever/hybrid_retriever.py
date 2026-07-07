@@ -13,7 +13,6 @@ from typing import List, Dict, Any, Set
 from rapidfuzz import fuzz
 from backend.retriever.engine import VectorDBManager
 from backend.hpo.hpo_mapper import HPOMapper
-from backend.reranker.clinical_reranker import ClinicalReranker
 from backend.retriever.query_builder import ClinicalQueryBuilder
 from backend.retriever.disease_api_client import disease_api_client
 from backend.retriever.pubmed_retriever import pubmed_retrieve
@@ -35,7 +34,6 @@ class HybridRetriever:
     def __init__(self):
         self.vector_manager = VectorDBManager()
         self.hpo_mapper = HPOMapper()
-        self.reranker = ClinicalReranker()
         self.query_builder = ClinicalQueryBuilder()
 
     def _calculate_hpo_score(self, patient_hpo_ids: Set[str], disease_text: str) -> float:
@@ -183,9 +181,7 @@ class HybridRetriever:
         )
         # ────────────────────────────────────────────────────────────────────
 
-        # 4. Clinical Reranking with live HPO phenotype data
-        reranked = await self.reranker.rerank_async(patient_data, all_results)
-        return reranked[:top_n]
+        return all_results[:top_n]
 
     def retrieve(self, patient_data: Dict[str, Any], top_n: int = 5) -> List[Dict[str, Any]]:
         """Legacy synchronous interface"""
